@@ -15,7 +15,7 @@ namespace LibraryFrontend.Controllers
     public class AuthorController : Controller
     {
 
-        private const string Baseurl = "http://localhost:5206/";
+        private const string Baseurl = "http://ec2-3-80-110-216.compute-1.amazonaws.com/";
 
         // GET: Author
         public async Task<ActionResult> Index()

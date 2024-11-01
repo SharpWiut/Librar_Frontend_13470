@@ -15,7 +15,7 @@ namespace LibraryFrontend.Controllers
     public class BookController : Controller
     {
 
-        string Baseurl = "http://localhost:5206/";
+        string Baseurl = "http://ec2-3-80-110-216.compute-1.amazonaws.com/";
 
 
         // GET: Book
